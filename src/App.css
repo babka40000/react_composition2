@@ -1,0 +1,77 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height: 200px;
+  border: 1px black solid
+}
+
+.HeaderLeft {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+}
+
+.HeaderRight {
+  display: flex;
+  border: 1px black solid;
+  width: 20%;
+}
+
+.HeaderLinkBlock {
+  display: flex;
+  flex-direction: row;
+}
+
+.HeaderLink {
+  margin: 0px 10px 10px 0px;
+  font-weight: bold;
+}
+
+.NewsBlock {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.CurrencyBlock {
+  display: flex;
+  flex-direction: row;
+}
+
+.Currency {
+  margin-right: 20px;
+}
+
+.ADS {
+  display: flex;
+  width: 1000px;
+  height: 100px;
+  border: 1px red solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.LinkBlock {
+  display: flex;
+  flex-direction: row;
+}
+
+.LinkBlockCol {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.WeatherBox {
+  margin-bottom: 10px;
+}
+
+.Links {
+  margin-bottom: 10px;
+}
